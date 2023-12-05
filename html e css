@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varal soluções</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<h1>VARAL soluções</h1>
+
+<body>
+    <h2 id="sobre nós"> <strong> <a> Nossa historia </a> </strong></h2>
+    <header>
+        <p>Varal Soluções é uma empresa especializada em soluções e produtos voltados para o alojamento adequado de
+            varais em apartamentos e outras estruturas urbanas. Fundada por profissionais da área de design de
+            interiores e decoração, a empresa busca proporcionar uma solução prática e eficiente para um problema
+            comum em muitos ambientes residenciais.
+
+            A Varal Soluções se destaca no mercado por sua especialização, diversidade de produtos, excelente
+            serviço ao cliente, facilidade de compra e pagamento através de sua plataforma de comércio eletrônico e
+            priorização da segurança e proteção dos dados dos clientes.
+
+            Para alcançar seu objetivo de sucesso no mercado, a empresa adota uma abordagem diversificada,
+            abrangendo as áreas de venda e instalações de varal e resdes de proteção. Isso permite que a empresa
+            ofereça soluções personalizadas e abrangentes para atender às necessidades e demandas de seus clientes.
+
+            Além disso, a Varal Soluções também investe em pesquisa e desenvolvimento, constantemente atualizando
+            seu portfólio de produtos para manter-se à frente da concorrência e atender às demandas evolutivas do
+            mercado.
+
+            Em suma, a empresa Varal Soluções tem como alvo uma ampla base de clientes interessados em soluções e
+            produtos voltados para o alojamento adequado de varais e resdes de proteção em ambientes urbanos. Com
+            sua proposta diferenciada, atendimento ao cliente excepcional e enfoque em inovação, a Varal Soluções
+            possui grande potencial de crescimento e sucesso no mercado de decoração e design de interiores.</p>
+        <br>
+        <br>
+
+    </header>
+    <nav id="menu">
+        <ul class="menu">
+            <li><a href="#">Home </a></li>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#"> menu </a> </li>
+            <li><a href="#">redes de segurança </a></li>
+            <li><a href="#"> catalogo </a>
+                <ul>
+                    <li><a href="#">modelos de teto </a></li>
+                    <li><a href="#">modelos de parede</a></li>
+                    <li><a href="#">modelos de chão</a></li>
+                    <li><a href="#">modelos fixos</a></li>
+                    <li><a href="#">modelos articulados </a></li>
+                    <li><a href="#">peças de reposição</a></li>
+                    <li><a href="#">acionar garantia </a></li>
+                </ul>
+            <li><a href="Agendar Orçamento "> orçamento </a></li>
+        </ul>
+
+    </nav>
+    <style>
+        head{
+            image-orientation: from-image;
+        }
+        p {
+            text-align: center;
+        }
+
+        iframe {
+            box-shadow: 20px 5px 7px black;
+            outline: 5px solid black;
+            padding: 5px;
+
+            .container iframe {
+                margin: 20px;
+            }
+
+
+
+
+            .container {
+                display: grid;
+                grid-template-columns: repeat(2, 2fr);
+                grid-gap: 50x;
+            }
+        }
+
+        .rolenta {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        img {
+            box-shadow: 10px 5px 7px 5px black;
+            width: 300px;
+            height: 300px;
+            border: 10px solid rgb(10, 10, 10);
+            margin: 10px auto;
+            backgroud: blue;
+
+        }
+
+        #menu ul {
+            list-style-type: none;
+            border: 1px solid;
+        }
+
+        #menu li {
+            position: relative;
+            border-right: 1px solid rgb(7, 2, 2);
+            scroll-padding: 10%;
+            backface-visibility: hidden;
+        }
+
+        #menu li a {
+            color: black;
+            text-decoration: none;
+            padding: 5px 10px;
+            display: block;
+        }
+
+
+        #menu li a:hover {
+            background: grey;
+            color: #070606;
+            -moz-box-shadow: 0 5px 10px 0 #e70f0f;
+            -webkit-box-shadow: 0 3px 10px 0 #8a3131;
+            text-shadow: 0px 10px 10px #fff;
+        }
+
+        #menu li ul {
+            position: absolute;
+            top: 25px;
+            left: 0;
+            background-color: #fcf9f9;
+            display: none;
+        }
+
+        #menu li:hover ul,
+        #menu li.over ul {
+            display: block;
+        }
+
+        #menu li ul li {
+            border: 1px solid #0f0c0c;
+            width: 150px;
+        }
+
+        header,
+        #menu,
+        #menu ul {
+            display: flex;
+        }
+
+        #menu {
+            flex: 2;
+            /* isto é para a nav ocupar a largura toda menos a logo */
+            justify-content: center;
+            /* alinha horizontalmente */
+            align-items: center;
+            /* alinha verticalmente */
+
+        }
+    </style>
+    <main>
+        <section class="products">
+            <!-- Adicione os produtos aqui -->
+            <div class="rolenta">
+
+                <img src="https://i.pinimg.com/originals/59/bf/82/59bf82fb09deffb01bee16ad437632fb.jpg" alt="100">
+                <img src="https://i.pinimg.com/originals/11/85/d9/1185d9acae81170dc5afd267c2c7b3f9.jpg" alt="100">
+                <img src="https://th.bing.com/th/id/OIP.M6mR0xmI2D7wR4T70eXGoAHaHa?rs=1&pid=ImgDetMain" alt="100">
+                <img src="https://http2.mlstatic.com/varal-individual-de-teto-180cm-com-06-varetas-em-aluminio-D_NQ_NP_697377-MLB28267556415_092018-F.jpg"
+                    alt="100">
+                <img src=" https://http2.mlstatic.com/D_NQ_NP_824513-MLB45499310393_042021-F.jpg" alt="100">
+                <img src="https://casaefesta.com/wp-content/uploads/2021/02/varal-para-apartamento-2.jpg" alt="100">
+                <img src="https://i.pinimg.com/originals/59/bf/82/59bf82fb09deffb01bee16ad437632fb.jpg" alt="100">
+                <img src="https://i.pinimg.com/736x/83/02/28/83022841568ae188eea488e8d1f35d0b.jpg" alt="100">
+                <img src="https://www.varaisdeteto.com.br/wp-content/uploads/2020/04/Varal-trad-de-Parede.jpeg"
+                    alt="100">
+            </div>
+            <br>
+            <br>
+            <fieldset>
+                <fieldset>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/XlQwXJdY5cQ?si=WiwKN3dVvYMqhpqw&amp;start=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/ovZZrzdNNbM?si=GEjPNpVKO7NdxEEd&amp;start=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/pddvndLTMa4?si=E2v71YZEE9XxYw6f&amp;start=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/BspH2i0XOZY?si=PO1HxG3CoFT6Oj8v&amp;start=1"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </fieldset>
+            </fieldset>
+            </div>
+        </section>
+        <section class="cart">
+            <!-- Adicione o carrinho de compras aqui -->
+        </section>
+        <section class="shipping">
+            <!-- Adicione a funcionalidade de consulta CEP aqui -->
+        </section>
+        <section class="payment">
+            <div id="paypal-button-container"></div>
+            <!-- Adicione a funcionalidade de pagamento aqui -->
+            <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID"></script>
+        </section>
+    </main>
+    <br>
+    <br>
+    <form>
+        <center>
+            <fieldset>
+                <h1 id="orçamento"> <strong><a> Agendar  Orçamento </a></strong></h1>
+                <th class="cadastro" <tr><strong>*Nome Completo</strong></tr>
+                </th><input>
+                <br>
+                <th>
+                    <tr><strong>*RG</strong>
+                </th><input>
+                <br>
+                <th>
+                    <tr><strong>*CPF</strong></tr>
+                </th><input>
+                <br>
+                <th>
+                    <tr><strong>*Endereço</strong></tr>
+                </th><input>
+                <br>
+                <th><strong>*Numero</strong></th><input>
+                <br>
+                <th><strong>*Complemento</strong></th><input>
+                <br>
+                <strong>*Data e Horario </strong><input type="datetime-local" name="horario" />
+                <button>enviar</button>
+            </fieldset>
+        </center>
+        <br>
+        <br>
+
+        <footer>
+            <fieldset>
+                <p>&copy; 2023 Varal soluçoes - CNPJ: 34.570.130/0001-16 . Todos os direitos reservados.</p>
+                <p>atendimento_sac@gmail.com</p>
+                <p>telefone de contato: (11) 949335598 </p>
+                <p>Rua tacaré, 29 - penha, São Paulo, Brazil 03703070</p>
+                <br>
+                <p class="copyright">
+                    Copyright &copy; 2023 <a href="https://www.dio.me" target="_blank">Dio.me</a> - Desafio Trilha CSS |
+                    por
+                    <a href="https://github.com/cadhi" target="_blank">Mackly Cabral</a>.
+            </fieldset>
+
+        </footer>
+
+        <br>
+        <script src="script.js"></script>
+        <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID"></script>
+</body>
+
+</html>
